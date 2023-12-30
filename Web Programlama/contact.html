@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <header>
+        <a href="/index.html" class="logo"> <img src="images/logo.png" alt=""></a>
+    
+            <ul class="navmenu">
+                <ol><a href="/index.html">Anasayfa</a></ol>
+                <ol><a href="/aboutus.html">Hakkımızda</a></ol>
+                <ol><a href="/menu.html">Menü</a></ol>
+                
+            </ul>
+    
+            <div class="nav-icon">
+                <a href="/contact.html" class="btn">İletişim</a>
+                <div class="bx bx-menu" id="menu-icon"></div>
+            </div>
+    </header>
+    <div class="contact-container">
+        <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+            <div class="contact-left-title">
+                <h2>İletişim</h2>
+                <hr>
+            </div>
+            <input type="hidden" name="access_key" value="d78ea502-da3f-49db-92fc-399a2055f7a2">
+            <input type="text" name="name" placeholder="Adınız" class="contact-inputs" required>
+            <input type="email" name="email" placeholder="Mailiniz" class="contact-inputs" required>
+            <textarea name="message" placeholder="Mesajınız" class="contact-inputs" required></textarea>
+            <button type="submit">Gönder<img src="images/arrow_icon.png" alt=""></button>
+
+        </form>
+
+        <div class="contact-right">
+            <img src="/images/right_img.png" alt="">
+        </div>
+    </div>
+</body>
+</html>
